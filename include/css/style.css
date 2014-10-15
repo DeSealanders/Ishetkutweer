@@ -1,0 +1,209 @@
+/* ------------------------------ *
+ * Measurements
+ * ------------------------------ */
+
+.measurement {
+    width: 100%;
+    overflow: auto;
+}
+
+.weatherstation {
+    clear: left;
+    background-repeat: no-repeat;
+}
+
+.measurement-text {
+    float: left;
+    height: 75px;
+    line-height: 75px;
+    vertical-align: middle;
+    padding-right: 20px;
+}
+
+.measurement-value {
+    float: left;
+    font-size: 30px;
+    height: 80px;
+    line-height: 60px;
+}
+
+.measurement .text {
+    float: left;
+    width: 150px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.measurement .suffix {
+    font-size: 65%;
+}
+
+
+/* Icon */
+
+.measurement-icon {
+    height: 100%;
+    width: 80px;
+    float: left;
+    text-align: center;
+}
+
+.measurement-icon img {
+    display: inline-block;
+    vertical-align: middle;
+    height: 30px;
+}
+
+.measurement-icon .centerer
+{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.alert-default {
+    background-image: linear-gradient(to bottom, #d1d1d1 0px, #e2e2e2 100%);
+    background-repeat: repeat-x;
+    border-color: #B2DBA1;
+}
+
+.alert-default .alert-link {
+    color: #6d6b6b;
+}
+
+/* ------------------------------ *
+ *  Title(s)
+ * ------------------------------ */
+
+.title {
+    padding: 40px;
+    font-size: 50px;
+    font-weight: 600;
+    float: left;
+}
+
+.outer-title {
+    float: left;
+    width: 100%;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+.title {
+    -webkit-border-radius: 80px;
+    -webkit-border-bottom-right-radius: 20px;
+    -webkit-border-bottom-left-radius: 20px;
+    -moz-border-radius: 80px;
+    -moz-border-radius-bottomright: 20px;
+    -moz-border-radius-bottomleft: 20px;
+    border-radius: 80px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.stationName {
+    float: left;
+    height: 75px;
+    width: 300px;
+}
+
+
+/* ------------------------------ *
+ *  Dropdown menu
+ * ------------------------------ */
+
+.dropdown-menu {
+    max-height: 400px;
+    overflow: auto;
+}
+
+.station-select {
+    background-color: #f5f3f3;
+}
+
+.dropdown-menu .menu-selected {
+    color: #428BCA;
+    font-weight: 600;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+    background-color: gainsboro;
+}
+
+/* ------------------------------ *
+ * Set colors
+ * ------------------------------ */
+
+.alert-danger {
+    color: #d9534f;
+}
+
+.alert-warning {
+    color: #f0ad4e;
+}
+
+.alert-success {
+    color: #5cb85c;
+}
+
+/* ------------------------------ *
+ * Footer
+ * ------------------------------ */
+
+.madeby {
+      min-width: 250px;
+      float: left;
+      overflow: auto;
+}
+
+.source {
+    min-width: 200px;
+    float: left;
+    overflow: auto;
+}
+
+
+
+/* ------------------------------ *
+ * Main layout
+ * ------------------------------ */
+body {
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 94%;
+    height: 100%;
+    min-width: 450px;
+}
+
+header {
+    height: 5%;
+    display: none;
+}
+
+footer {
+    clear: both;
+    height: 3%;
+}
+
+.content {
+    width: 100%;
+    height: 97%;
+}
+
+/* ------------------------------ *
+ * Social media icons
+ * ------------------------------ */
+
+.socialmedia {
+    float: left;
+    padding-left: 150px;
+}
+
+.twittericon {
+    padding-left: 10px;
+}
+
+.facebookicon {
+    padding-right: 10px;
+}
